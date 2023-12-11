@@ -1,0 +1,38 @@
+
+<div class="d-flex flex-column min-vh-100" style="object-fit: cover;">
+  <nav class="navbar navbar-expand navbar-dark my-2" style="background-color: rgb(39, 177, 39);">
+    <a routerLink="" class="navbar-brand" style="font-size: 200%;"><b>SPEED</b></a>
+    <div class="navbar-nav ">
+      <li class="nav-item">
+        <a routerLink="calender" class="nav-link">Calender</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="event" class="nav-link">Events</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="leaderboard" class="nav-link">LeaderBoard</a>
+      </li>
+    </div>
+  </nav>
+
+  <div class="container" style="padding:0%;margin: 0px;margin-top:0%;max-width: inherit;">
+    <router-outlet>
+
+    </router-outlet>
+  </div>
+  <!--Footer section-->
+  <div style="background-color:rgb(39, 177, 39) ;color:white" class="mt-auto">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-4 border-top"style="background-color:rgb(39, 177, 39) ;">
+      <p  class="col-md-4 mb-0 ">© 2023 Prodapt Solutions Pvt Ltd.</p>
+       
+          <a  class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <img src="../assets/Prodapt logo.jpg" class="bi me-2" width="90" height="32"/>
+      </a>
+       
+          <ul class="nav col-md-4 justify-content-end" > 
+      <li class="nav-item"><a style="color:white;text-decoration: none;"href="#" class="nav-link px-2 ">Home</a></li>
+      <li class="nav-item"><a style="color:white;text-decoration: none;" class="nav-link px-2 ">About</a></li>
+      </ul>
+      </footer>
+  </div>
+</div>
